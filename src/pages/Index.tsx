@@ -33,7 +33,7 @@ const Index = () => {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               Dịch vụ dọn dẹp nhà cửa{" "}
-              <span className="text-gradient">nhanh chóng – uy tín – tiện lợi</span>
+              <span>nhanh chóng – uy tín – tiện lợi</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -182,11 +182,11 @@ const Index = () => {
                   Đặt lịch ngay hôm nay để tận hưởng không gian sống sạch sẽ, thoải mái
                 </p>
                 <Link to="/dat-dich-vu">
-                  <Button variant="hero" size="xl" className="bg-white text-primary hover:bg-white/90">
-                    Đặt dịch vụ ngay
-                    <ArrowRight className="w-5 h-5" />
-                  </Button>
-                </Link>
+                <Button variant="hero" size="xl" className="w-full sm:w-auto">
+                  Đặt dịch vụ ngay
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </Link>
               </div>
             </CardContent>
           </Card>
